@@ -26,9 +26,11 @@ public class Main {
             }
         }
 
-    System.out.println("\nМатрица в виде бабочки:");
-    for (int[] el : arr){
-        System.out.println(Arrays.toString(el));
-    }
+        System.out.println("\nМатрица в виде бабочки:");
+        for (int[] el : arr){
+            System.out.println(Arrays.toString(el));
+        }
+    
+        in.close();
     }
 }
